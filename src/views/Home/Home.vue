@@ -5,12 +5,6 @@
   </div>
 </template>
 
-<script setup lang="ts">
-const fn = (a: any, b: any) => {
-  console.warn(a + b)
-}
-const b = '1'
-console.log(b)
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>
