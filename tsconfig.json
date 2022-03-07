@@ -15,7 +15,7 @@
       "@": ["./src/*"],
       "@AC": ["./src/common/appConstant.ts"]
     },
-    "types": ["element-plus/global"]
+    "types": ["vite/client", "element-plus/global", "jest"]
   },
   "include": [
     "src/**/*.ts",

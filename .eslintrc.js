@@ -6,7 +6,8 @@ module.exports = {
   extends: [
     'plugin:vue/essential',
     'airbnb-base',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'plugin:jest/recommended'
   ],
   parserOptions: {
     ecmaVersion: 13,
@@ -17,7 +18,7 @@ module.exports = {
   rules: {
     'no-console': 1,
     '@typescript-eslint/no-explicit-any': 1,
-    'vue/multi-word-component-names': 1, // 组件名为多个单词改为警告
+    'vue/multi-word-component-names': 0, // 组件名为多个单词改为警告
     'import/extensions': 0, // 取消对文件扩展名的验证
     'import/no-unresolved': 0, // 取消自动解析路径
     'import/no-extraneous-dependencies': 0
