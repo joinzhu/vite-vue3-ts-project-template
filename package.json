@@ -13,7 +13,9 @@
     "*.{vue,js,ts}": "eslint --fix"
   },
   "dependencies": {
+    "@types/lodash": "^4.14.179",
     "element-plus": "^2.0.2",
+    "lodash": "^4.17.21",
     "vue": "^3.2.25",
     "vue-router": "4",
     "vuex": "^4.0.2"

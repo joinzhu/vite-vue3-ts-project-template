@@ -21,6 +21,9 @@ module.exports = {
     'vue/multi-word-component-names': 0, // 组件名为多个单词改为警告
     'import/extensions': 0, // 取消对文件扩展名的验证
     'import/no-unresolved': 0, // 取消自动解析路径
-    'import/no-extraneous-dependencies': 0
+    'import/no-extraneous-dependencies': 0,
+    'import/prefer-default-export': 0,
+    'no-unused-expressions': 0,
+    'no-return-await': 0
   }
 }
