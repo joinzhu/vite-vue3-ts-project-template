@@ -24,6 +24,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 0,
     'import/prefer-default-export': 0,
     'no-unused-expressions': 0,
-    'no-return-await': 0
+    'no-return-await': 0,
+    'class-methods-use-this': 0
   }
 }
