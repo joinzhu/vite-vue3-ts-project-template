@@ -1,11 +1,33 @@
-# Vue 3 + Typescript + Vite
+#vue3 + vite + TS + element-ui的项目模版
+---
+#### 相关插件配置
+| 配置/插件项 | 是否配置  | 配置文件 |
+| :----: | :----: | :----: |
+| eslint  | Y | .eslintrc.js |
+| prettier  | Y | .prettierrc |
+| git  | Y | .husky |
+| commitizen | Y | .cz-config.js |
+| npm | Y | .npmrc |
+| jest | Y | jest.config.js |
+| typescript | Y | tsconfig.json |
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+#### src中各文件夹作用
+| 文件夹 | 作用 |
+| :----: | :----: |
+| api | 接口 |
+| assets | 静态文件、css等 |
+| common | 全局变量 |
+| components | 组件 |
+| plugins | 插件（包含封装fetch） |
+| router | 路由 |
+| store | vuex |
+| utils | 工具 |
+| views | 页面 |
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
-
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+#### script命令
+| 命令 | 作用 | 备注 |
+| :----: | :----: | :----: |
+| dev | 启动本地 |  |
+| build | 打包 |  |
+| test | 单元测试 |  |
+| commit | git的commit | 用了husky+commitizen规范git的提交 |
